@@ -1,5 +1,5 @@
 {
-    "name": "kirano-dev/laravel-payment",
+    "name": "monosniper/laravel-payment",
     "description": "Integrate UZ Payment systems (Payme, Click, Uzum...)",
     "type": "library",
     "autoload": {
