@@ -1,10 +1,10 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Http\Controllers\Api;
+namespace Monosniper\LaravelPayment\Http\Controllers\Api;
 
 use Illuminate\Http\JsonResponse;
-use KiranoDev\LaravelPayment\Http\Requests\QuickPay\CallbackRequest;
-use KiranoDev\LaravelPayment\Services\Payment\QuickPay;
+use Monosniper\LaravelPayment\Http\Requests\QuickPay\CallbackRequest;
+use Monosniper\LaravelPayment\Services\Payment\QuickPay;
 
 class QuickPayController
 {

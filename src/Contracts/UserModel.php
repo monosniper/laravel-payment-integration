@@ -1,6 +1,6 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Contracts;
+namespace Monosniper\LaravelPayment\Contracts;
 
 interface UserModel
 {

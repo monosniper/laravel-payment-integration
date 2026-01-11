@@ -1,12 +1,12 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Models;
+namespace Monosniper\LaravelPayment\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use KiranoDev\LaravelPayment\Base\OrderModel;
-use KiranoDev\LaravelPayment\Enums\PaymentMethod;
-use KiranoDev\LaravelPayment\Enums\TransactionStatus;
+use Monosniper\LaravelPayment\Base\OrderModel;
+use Monosniper\LaravelPayment\Enums\PaymentMethod;
+use Monosniper\LaravelPayment\Enums\TransactionStatus;
 
 class Transaction extends Model
 {

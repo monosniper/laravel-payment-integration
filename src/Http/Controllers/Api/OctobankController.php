@@ -1,10 +1,10 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Http\Controllers\Api;
+namespace Monosniper\LaravelPayment\Http\Controllers\Api;
 
 use Illuminate\Http\JsonResponse;
-use KiranoDev\LaravelPayment\Http\Requests\Octobank\CallbackRequest;
-use KiranoDev\LaravelPayment\Services\Payment\Octobank;
+use Monosniper\LaravelPayment\Http\Requests\Octobank\CallbackRequest;
+use Monosniper\LaravelPayment\Services\Payment\Octobank;
 
 class OctobankController
 {

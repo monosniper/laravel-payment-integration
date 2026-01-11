@@ -1,16 +1,16 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Services\Payment;
+namespace Monosniper\LaravelPayment\Services\Payment;
 
 use Illuminate\Http\Client\Response;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
-use KiranoDev\LaravelPayment\Base\OrderModel;
-use KiranoDev\LaravelPayment\Contracts\PaymentService;
-use KiranoDev\LaravelPayment\Enums\QuickPay\PaymentCode;
-use KiranoDev\LaravelPayment\Enums\QuickPay\PaymentStatus;
-use KiranoDev\LaravelPayment\Enums\QuickPay\PaymentType;
+use Monosniper\LaravelPayment\Base\OrderModel;
+use Monosniper\LaravelPayment\Contracts\PaymentService;
+use Monosniper\LaravelPayment\Enums\QuickPay\PaymentCode;
+use Monosniper\LaravelPayment\Enums\QuickPay\PaymentStatus;
+use Monosniper\LaravelPayment\Enums\QuickPay\PaymentType;
 
 class QuickPay implements PaymentService
 {

@@ -1,8 +1,8 @@
 <?php
 
-use KiranoDev\LaravelPayment\Enums\Click\Error as ClickError;
-use KiranoDev\LaravelPayment\Enums\Payme\Error as PaymeError;
-use KiranoDev\LaravelPayment\Enums\InfinityPay\Error as InfinityPayError;
+use Monosniper\LaravelPayment\Enums\Click\Error as ClickError;
+use Monosniper\LaravelPayment\Enums\Payme\Error as PaymeError;
+use Monosniper\LaravelPayment\Enums\InfinityPay\Error as InfinityPayError;
 
 return [
     'payme' => [

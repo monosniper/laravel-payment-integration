@@ -1,13 +1,13 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Http\Requests\InfinityPay;
+namespace Monosniper\LaravelPayment\Http\Requests\InfinityPay;
 
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Http\Exceptions\HttpResponseException;
-use KiranoDev\LaravelPayment\Enums\InfinityPay\Error;
-use KiranoDev\LaravelPayment\Enums\InfinityPay\TransactionType;
-use KiranoDev\LaravelPayment\Services\Payment\InfinityPay;
+use Monosniper\LaravelPayment\Enums\InfinityPay\Error;
+use Monosniper\LaravelPayment\Enums\InfinityPay\TransactionType;
+use Monosniper\LaravelPayment\Services\Payment\InfinityPay;
 
 class BaseRequest extends FormRequest
 {

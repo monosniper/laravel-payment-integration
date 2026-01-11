@@ -1,8 +1,8 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Enums\InfinityPay;
+namespace Monosniper\LaravelPayment\Enums\InfinityPay;
 
-use KiranoDev\LaravelPayment\Enums\BaseEnum;
+use Monosniper\LaravelPayment\Enums\BaseEnum;
 
 enum Error: int
 {

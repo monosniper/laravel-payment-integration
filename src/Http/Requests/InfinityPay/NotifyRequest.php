@@ -1,6 +1,6 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Http\Requests\InfinityPay;
+namespace Monosniper\LaravelPayment\Http\Requests\InfinityPay;
 
 class NotifyRequest extends BaseRequest
 {

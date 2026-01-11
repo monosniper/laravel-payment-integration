@@ -3,8 +3,8 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-use KiranoDev\LaravelPayment\Enums\PaymentMethod;
-use KiranoDev\LaravelPayment\Enums\TransactionStatus;
+use Monosniper\LaravelPayment\Enums\PaymentMethod;
+use Monosniper\LaravelPayment\Enums\TransactionStatus;
 
 return new class extends Migration
 {

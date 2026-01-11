@@ -1,8 +1,8 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Enums\QuickPay;
+namespace Monosniper\LaravelPayment\Enums\QuickPay;
 
-use KiranoDev\LaravelPayment\Enums\BaseEnum;
+use Monosniper\LaravelPayment\Enums\BaseEnum;
 
 enum PaymentCode: int
 {

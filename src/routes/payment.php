@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use KiranoDev\LaravelPayment\Http\Controllers\Api\{
+use Monosniper\LaravelPayment\Http\Controllers\Api\{
     ClickController,
     OctobankController,
     InfinityPayController,

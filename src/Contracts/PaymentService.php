@@ -1,10 +1,10 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Contracts;
+namespace Monosniper\LaravelPayment\Contracts;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use KiranoDev\LaravelPayment\Base\OrderModel;
+use Monosniper\LaravelPayment\Base\OrderModel;
 
 interface PaymentService
 {

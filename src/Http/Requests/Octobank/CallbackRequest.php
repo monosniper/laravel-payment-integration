@@ -1,6 +1,6 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Http\Requests\Octobank;
+namespace Monosniper\LaravelPayment\Http\Requests\Octobank;
 
 use Illuminate\Foundation\Http\FormRequest;
 

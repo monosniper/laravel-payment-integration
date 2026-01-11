@@ -1,8 +1,8 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Enums\Payme;
+namespace Monosniper\LaravelPayment\Enums\Payme;
 
-use KiranoDev\LaravelPayment\Enums\BaseEnum;
+use Monosniper\LaravelPayment\Enums\BaseEnum;
 
 enum Error: string
 {

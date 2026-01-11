@@ -1,10 +1,10 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Http\Controllers\Api;
+namespace Monosniper\LaravelPayment\Http\Controllers\Api;
 
 use Illuminate\Http\JsonResponse;
-use KiranoDev\LaravelPayment\Http\Requests\Uzum\CallbackRequest;
-use KiranoDev\LaravelPayment\Services\Payment\Uzum;
+use Monosniper\LaravelPayment\Http\Requests\Uzum\CallbackRequest;
+use Monosniper\LaravelPayment\Services\Payment\Uzum;
 
 class UzumController
 {

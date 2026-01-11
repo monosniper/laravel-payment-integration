@@ -1,13 +1,13 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Services\Payment;
+namespace Monosniper\LaravelPayment\Services\Payment;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
-use KiranoDev\LaravelPayment\Base\OrderModel;
-use KiranoDev\LaravelPayment\Contracts\PaymentService;
-use KiranoDev\LaravelPayment\Http\Resources\UzumItemResource;
+use Monosniper\LaravelPayment\Base\OrderModel;
+use Monosniper\LaravelPayment\Contracts\PaymentService;
+use Monosniper\LaravelPayment\Http\Resources\UzumItemResource;
 
 class Uzum implements PaymentService
 {

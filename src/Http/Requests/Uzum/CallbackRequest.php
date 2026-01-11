@@ -1,6 +1,6 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Http\Requests\Uzum;
+namespace Monosniper\LaravelPayment\Http\Requests\Uzum;
 
 use Illuminate\Foundation\Http\FormRequest;
 

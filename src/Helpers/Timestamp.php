@@ -1,6 +1,6 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Helpers;
+namespace Monosniper\LaravelPayment\Helpers;
 
 class Timestamp
 {

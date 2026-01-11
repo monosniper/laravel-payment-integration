@@ -1,10 +1,10 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Http\Requests\QuickPay;
+namespace Monosniper\LaravelPayment\Http\Requests\QuickPay;
 
 use Illuminate\Foundation\Http\FormRequest;
-use KiranoDev\LaravelPayment\Enums\QuickPay\PaymentCode;
-use KiranoDev\LaravelPayment\Enums\QuickPay\PaymentType;
+use Monosniper\LaravelPayment\Enums\QuickPay\PaymentCode;
+use Monosniper\LaravelPayment\Enums\QuickPay\PaymentType;
 
 class
 CallbackRequest extends FormRequest

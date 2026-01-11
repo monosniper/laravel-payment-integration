@@ -1,11 +1,11 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Http\Resources;
+namespace Monosniper\LaravelPayment\Http\Resources;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
-use KiranoDev\LaravelPayment\Base\OrderModel;
-use KiranoDev\LaravelPayment\Services\Payment\InfinityPay;
+use Monosniper\LaravelPayment\Base\OrderModel;
+use Monosniper\LaravelPayment\Services\Payment\InfinityPay;
 
 class InfinityPayFiscalizationResource extends JsonResource
 {

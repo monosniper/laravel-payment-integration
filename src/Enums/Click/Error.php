@@ -1,8 +1,8 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Enums\Click;
+namespace Monosniper\LaravelPayment\Enums\Click;
 
-use KiranoDev\LaravelPayment\Enums\BaseEnum;
+use Monosniper\LaravelPayment\Enums\BaseEnum;
 
 enum Error: string
 {

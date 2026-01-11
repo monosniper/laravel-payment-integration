@@ -1,6 +1,6 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Services\Protocols;
+namespace Monosniper\LaravelPayment\Services\Protocols;
 
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Http;

@@ -1,10 +1,10 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Http\Controllers\Api;
+namespace Monosniper\LaravelPayment\Http\Controllers\Api;
 
 use Illuminate\Http\JsonResponse;
-use KiranoDev\LaravelPayment\Http\Requests\Click\CallbackRequest;
-use KiranoDev\LaravelPayment\Services\Payment\Click;
+use Monosniper\LaravelPayment\Http\Requests\Click\CallbackRequest;
+use Monosniper\LaravelPayment\Services\Payment\Click;
 
 class ClickController
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Http\Requests\InfinityPay;
+namespace Monosniper\LaravelPayment\Http\Requests\InfinityPay;
 
-use KiranoDev\LaravelPayment\Enums\InfinityPay\TransactionType;
+use Monosniper\LaravelPayment\Enums\InfinityPay\TransactionType;
 
 class FiscalizationRequest extends BaseRequest
 {

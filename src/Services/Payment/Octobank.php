@@ -1,15 +1,15 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Services\Payment;
+namespace Monosniper\LaravelPayment\Services\Payment;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
-use KiranoDev\LaravelPayment\Base\OrderModel;
-use KiranoDev\LaravelPayment\Contracts\PaymentService;
-use KiranoDev\LaravelPayment\Enums\TransactionStatus;
-use KiranoDev\LaravelPayment\Http\Resources\OctobankBasketResource;
-use KiranoDev\LaravelPayment\Models\Transaction;
+use Monosniper\LaravelPayment\Base\OrderModel;
+use Monosniper\LaravelPayment\Contracts\PaymentService;
+use Monosniper\LaravelPayment\Enums\TransactionStatus;
+use Monosniper\LaravelPayment\Http\Resources\OctobankBasketResource;
+use Monosniper\LaravelPayment\Models\Transaction;
 
 class Octobank implements PaymentService
 {

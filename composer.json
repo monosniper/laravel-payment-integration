@@ -4,7 +4,7 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "KiranoDev\\LaravelPayment\\": "src/"
+            "Monosniper\\LaravelPayment\\": "src/"
         }
     },
     "authors": [
@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "KiranoDev\\LaravelPayment\\Providers\\LaravelPaymentServiceProvider"
+                "Monosniper\\LaravelPayment\\Providers\\LaravelPaymentServiceProvider"
             ]
         }
     }

@@ -1,14 +1,14 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Providers;
+namespace Monosniper\LaravelPayment\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use KiranoDev\LaravelPayment\Services\Payment\Click;
-use KiranoDev\LaravelPayment\Services\Payment\Payme;
-use KiranoDev\LaravelPayment\Services\Payment\InfinityPay;
-use KiranoDev\LaravelPayment\Services\Payment\Paynet;
-use KiranoDev\LaravelPayment\Services\Payment\QuickPay;
-use KiranoDev\LaravelPayment\Services\Payment\Uzum;
+use Monosniper\LaravelPayment\Services\Payment\Click;
+use Monosniper\LaravelPayment\Services\Payment\Payme;
+use Monosniper\LaravelPayment\Services\Payment\InfinityPay;
+use Monosniper\LaravelPayment\Services\Payment\Paynet;
+use Monosniper\LaravelPayment\Services\Payment\QuickPay;
+use Monosniper\LaravelPayment\Services\Payment\Uzum;
 
 class LaravelPaymentServiceProvider extends ServiceProvider
 {

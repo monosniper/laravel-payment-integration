@@ -1,9 +1,9 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Http\Requests\Click;
+namespace Monosniper\LaravelPayment\Http\Requests\Click;
 
 use Illuminate\Foundation\Http\FormRequest;
-use KiranoDev\LaravelPayment\Enums\Payme\Method;
+use Monosniper\LaravelPayment\Enums\Payme\Method;
 
 class CallbackRequest extends FormRequest
 {

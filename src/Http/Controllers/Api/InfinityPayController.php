@@ -1,15 +1,15 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Http\Controllers\Api;
+namespace Monosniper\LaravelPayment\Http\Controllers\Api;
 
 use Illuminate\Http\JsonResponse;
-use KiranoDev\LaravelPayment\Http\Requests\InfinityPay\CancelRequest;
-use KiranoDev\LaravelPayment\Http\Requests\InfinityPay\FiscalizationRequest;
-use KiranoDev\LaravelPayment\Http\Requests\InfinityPay\InfoRequest;
-use KiranoDev\LaravelPayment\Http\Requests\InfinityPay\NotifyRequest;
-use KiranoDev\LaravelPayment\Http\Requests\InfinityPay\PayRequest;
-use KiranoDev\LaravelPayment\Http\Requests\InfinityPay\StatementRequest;
-use KiranoDev\LaravelPayment\Services\Payment\InfinityPay;
+use Monosniper\LaravelPayment\Http\Requests\InfinityPay\CancelRequest;
+use Monosniper\LaravelPayment\Http\Requests\InfinityPay\FiscalizationRequest;
+use Monosniper\LaravelPayment\Http\Requests\InfinityPay\InfoRequest;
+use Monosniper\LaravelPayment\Http\Requests\InfinityPay\NotifyRequest;
+use Monosniper\LaravelPayment\Http\Requests\InfinityPay\PayRequest;
+use Monosniper\LaravelPayment\Http\Requests\InfinityPay\StatementRequest;
+use Monosniper\LaravelPayment\Services\Payment\InfinityPay;
 
 class InfinityPayController
 {

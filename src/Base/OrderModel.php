@@ -1,23 +1,23 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Base;
+namespace Monosniper\LaravelPayment\Base;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Support\Collection;
-use KiranoDev\LaravelPayment\Contracts\UserModel;
-use KiranoDev\LaravelPayment\Enums\PaymentMethod;
-use KiranoDev\LaravelPayment\Models\Product;
-use KiranoDev\LaravelPayment\Models\Transaction;
-use KiranoDev\LaravelPayment\Services\Payment\Click;
-use KiranoDev\LaravelPayment\Services\Payment\InfinityPay;
-use KiranoDev\LaravelPayment\Services\Payment\Octobank;
-use KiranoDev\LaravelPayment\Services\Payment\Payme;
-use KiranoDev\LaravelPayment\Services\Payment\Paynet;
-use KiranoDev\LaravelPayment\Services\Payment\QuickPay;
-use KiranoDev\LaravelPayment\Services\Payment\Uzum;
+use Monosniper\LaravelPayment\Contracts\UserModel;
+use Monosniper\LaravelPayment\Enums\PaymentMethod;
+use Monosniper\LaravelPayment\Models\Product;
+use Monosniper\LaravelPayment\Models\Transaction;
+use Monosniper\LaravelPayment\Services\Payment\Click;
+use Monosniper\LaravelPayment\Services\Payment\InfinityPay;
+use Monosniper\LaravelPayment\Services\Payment\Octobank;
+use Monosniper\LaravelPayment\Services\Payment\Payme;
+use Monosniper\LaravelPayment\Services\Payment\Paynet;
+use Monosniper\LaravelPayment\Services\Payment\QuickPay;
+use Monosniper\LaravelPayment\Services\Payment\Uzum;
 
 abstract class OrderModel extends Model
 {

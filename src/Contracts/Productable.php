@@ -1,8 +1,8 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Contracts;
+namespace Monosniper\LaravelPayment\Contracts;
 
-use KiranoDev\LaravelPayment\Models\Product;
+use Monosniper\LaravelPayment\Models\Product;
 
 interface Productable
 {

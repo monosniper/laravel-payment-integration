@@ -1,18 +1,18 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Services\Payment;
+namespace Monosniper\LaravelPayment\Services\Payment;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use KiranoDev\LaravelPayment\Base\OrderModel;
-use KiranoDev\LaravelPayment\Contracts\PaymentService;
-use KiranoDev\LaravelPayment\Enums\Payme\Error;
-use KiranoDev\LaravelPayment\Enums\PaymentMethod;
-use KiranoDev\LaravelPayment\Enums\TransactionStatus;
-use KiranoDev\LaravelPayment\Helpers\Timestamp;
-use KiranoDev\LaravelPayment\Http\Resources\PaymeFiscalisationResource;
-use KiranoDev\LaravelPayment\Http\Resources\PaymeTransactionResource;
-use KiranoDev\LaravelPayment\Models\Transaction;
+use Monosniper\LaravelPayment\Base\OrderModel;
+use Monosniper\LaravelPayment\Contracts\PaymentService;
+use Monosniper\LaravelPayment\Enums\Payme\Error;
+use Monosniper\LaravelPayment\Enums\PaymentMethod;
+use Monosniper\LaravelPayment\Enums\TransactionStatus;
+use Monosniper\LaravelPayment\Helpers\Timestamp;
+use Monosniper\LaravelPayment\Http\Resources\PaymeFiscalisationResource;
+use Monosniper\LaravelPayment\Http\Resources\PaymeTransactionResource;
+use Monosniper\LaravelPayment\Models\Transaction;
 
 class Paynet implements PaymentService
 {

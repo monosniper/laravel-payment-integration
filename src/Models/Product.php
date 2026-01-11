@@ -1,6 +1,6 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Models;
+namespace Monosniper\LaravelPayment\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;

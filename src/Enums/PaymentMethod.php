@@ -1,6 +1,6 @@
 <?php
 
-namespace KiranoDev\LaravelPayment\Enums;
+namespace Monosniper\LaravelPayment\Enums;
 
 enum PaymentMethod: string
 {
