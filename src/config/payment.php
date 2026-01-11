@@ -7,9 +7,9 @@ return [
     'inn' => '',
 
     'click' => [
-        'service_id' => '',
         'merchant_id' => '',
         'merchant_user_id' => '',
+        'service_id' => '',
         'secret_key' => '',
         'with_split' => false,
 
@@ -20,14 +20,13 @@ return [
         'merchant_id' => '',
         'key' => '',
         'test_key' => '',
+        'parameter' => 'order_id',
 
         'is_test' => false,
         'enabled' => false,
     ],
 
     'uzum' => [
-        'is_test' => true,
-
         'terminal_id' => '',
         'api_key' => '',
 
@@ -35,6 +34,8 @@ return [
             'terminal_id' => '',
             'api_key' => '',
         ],
+
+        'is_test' => true,
         'enabled' => false,
     ],
 
@@ -54,9 +55,9 @@ return [
     ],
 
     'octobank' => [
+        'shop_id' => '',
         'secret' => '',
         'hash_secret' => '',
-        'shop_id' => '',
 
         'is_test' => true,
         'enabled' => false,

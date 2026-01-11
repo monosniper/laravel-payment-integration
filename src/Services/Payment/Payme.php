@@ -46,7 +46,7 @@ class Payme implements PaymentService
     {
         $params = [
             'm' => $this->merchant_id,
-            'ac.order_id' => $order->id,
+            sprintf('ac.%s', config('payment.payme.parameter')) => $order->id,
             'a' => $order->amount * 100,
             'l' => $order->user->language ?? app()->getLocale(),
             ...$order->getParams()
@@ -234,8 +234,8 @@ class Payme implements PaymentService
             $this->transaction = self::getTransaction($data['id']);
         }
 
-        if(isset($data['account']['order_id'])) {
-            $this->order = app(OrderModel::class)::find($data['account']['order_id']);
+        if(isset($data['account'][config('payment.payme.parameter')])) {
+            $this->order = app(OrderModel::class)::find($data['account'][config('payment.payme.parameter')]);
 
             if(!$this->order) {
                 return Error::INVALID_ORDER_ID;

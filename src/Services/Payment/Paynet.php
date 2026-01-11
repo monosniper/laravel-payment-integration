@@ -218,8 +218,8 @@ class Paynet implements PaymentService
             $this->transaction = self::getTransaction($data['id']);
         }
 
-        if(isset($data['account']['order_id'])) {
-            $this->order = app(OrderModel::class)::find($data['account']['order_id']);
+        if(isset($data['account'][config('payment.payme.parameter')])) {
+            $this->order = app(OrderModel::class)::find($data['account'][config('payment.payme.parameter')]);
 
             if(!$this->order) {
                 return Error::INVALID_ORDER_ID;
